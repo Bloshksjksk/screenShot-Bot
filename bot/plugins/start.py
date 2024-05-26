@@ -18,10 +18,10 @@ async def start(c, m, cb=False):
         print(e)
 
     BUTTONS = [[
-        InlineKeyboardButton("My Father 🧔", url=f"https://t.me/{username}"),
-        InlineKeyboardButton("Updates Channel 🔰", url="https://telegram.dog/NsBotsOfficial")
+        InlineKeyboardButton("My Dev 🧑‍💻", url=f"https://t.me/{username}"),
+        InlineKeyboardButton("Updates Channel 🔰", url="https://telegram.dog/movie_time_botonly")
         ],[
-        InlineKeyboardButton("Source code 😎", url="https://github.com/Ns-AnoNymouS/animated-lamp")
+        InlineKeyboardButton("Source code 😎", url="https://github.com")
         ],[
         InlineKeyboardButton("Help ⁉️", callback_data="help"),
         InlineKeyboardButton("Settings ⚙", callback_data="set+settings")
