@@ -9,4 +9,4 @@ RUN apt -qq update && \
 
 COPY . .
 RUN pip3 install -r requirements.txt
-CMD 
+CMD python3 -m bot
